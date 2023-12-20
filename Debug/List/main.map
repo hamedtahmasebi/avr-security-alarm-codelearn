@@ -1,0 +1,23 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+PAUSE_TIME_AFTER_DISCARD_SECONDS                                                  R4,R5        2
+alarm_triggered                                                                   R2.0      1bit
+is_silent_mode                                                                    R2.1      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+temporarily_pause_sesonr                                                          0x00060     21
+handle_remote_action                                                              0x00075     21
+main                                                                              0x0008A     62
+trigger_alarm                                                                     0x000C8      9
+exit_silent_mode                                                                  0x000D1     11

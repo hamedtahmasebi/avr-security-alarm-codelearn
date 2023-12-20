@@ -1,0 +1,4 @@
+main DSTACK_USAGE:1 DSTACK_LEVEL:1 FILE:"main.c" LINE:47
+handle_remote_action DSTACK_USAGE:1 DSTACK_LEVEL:2 FILE:"main.c" LINE:28
+temporarily_pause_sesonr DSTACK_USAGE:2 DSTACK_LEVEL:4 FILE:"main.c" LINE:20
+trigger_alarm DSTACK_USAGE:2 DSTACK_LEVEL:6 FILE:"main.c" LINE:80
